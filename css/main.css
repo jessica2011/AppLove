@@ -1,4 +1,5 @@
 /*CLASES REUTILIZABLES*/
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -13,8 +14,10 @@
 
 body {
   margin: 0 auto;
+  padding: 0;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -71,3 +74,169 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+body {
+  width: 100%;
+}
+
+/********maquetando la cabecera********/
+
+header {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+
+nav {
+  position: absolute;
+  left:180px;
+  top: 50%;
+  transform: translateY(-50%);  
+}
+
+nav a {
+  padding-right: 35px;
+  font-weight: 900; /*para verse la palabra en negrita*/
+}
+
+.figure-one {
+  float: right;
+  margin:  0 250px 0 0;
+}
+
+.logo {
+  width: 80px;
+}
+
+/********Maquetando la primera sección********/
+
+.box-first {
+  width: 100%;;
+  margin-top: 90px;
+  display: inline-block;
+  height: 600px;
+  background-image: url('../assets/images/bg-home.jpg');
+  background-size: cover;  
+}
+
+.box-first .container h2 {
+  font-size: 30px;
+  margin: 60px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 65px;
+  margin:0;
+  color: white;
+  text-align: center;
+}
+
+.box-first .container p {
+  font-size: 20px;
+  margin:0;
+  color: white;
+  text-align: center;
+}
+
+.box-first .container a {
+  color:white;
+  background-color: #2ecc71;
+  position: relative;
+  left: 45%;
+  padding: 15px;
+  top:90px;  
+}
+
+/*******Maquetando la segunda seccion*******/
+
+.box-second {
+  background-color: #f17c72;
+  width: 100%;
+  position: relative;
+  top: -40px ;
+}
+
+.box-second h2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 80px;
+}
+
+.box-second h4 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.service-image {
+  width:  230px;
+}
+
+.block {
+  display: inline-block;
+  padding: 36px;
+  text-align: center;
+}
+
+.block h5, h6 {
+  color: white;
+  line-height: 0.5;
+}
+
+/*******Maquetando la tercera seccion*******/
+
+
+.box-third {
+  background-color: #ffffff;
+  width: 100%;
+  position: relative;
+  top: -40px ;
+}
+.box-third h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 60px;
+}
+
+.box-third h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.box-third img {
+  position: relative;
+  width: 80%;
+  left: 10%;
+}
+
+/*******maquetando la seccion de columnas de imagenes*******/
+
+.box-third .box-images img {
+  width: 300px;
+}
+
+.box-third .image {
+  display: inline-block;
+  padding-left: 80px;
+  padding-right: 15px;
+}
+
+.box-third .image p {
+  text-align: center;
+}
+
+
+
+footer {
+  background-color: #373b47;
+  color: white;
+  height: 70px; 
+}
+
+footer p {
+  text-align: center;
+  padding-top: 15px;
+}
