@@ -228,6 +228,10 @@ h1 {
   text-align: center;
 }
 
+.box-third .image img {
+  cursor: pointer;
+}
+
 
 
 footer {
